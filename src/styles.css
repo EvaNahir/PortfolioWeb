@@ -1,0 +1,134 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image:url("https://wallpapercave.com/wp/wp7420986.png");
+}
+
+p{
+	font-size:20px;
+	color: white;
+}
+
+h5{
+	font-size:16px;
+	color:#ffccdd;
+}
+
+.container-xxl h1, h6{
+	display: flex;
+	justify-content: center;
+}
+
+.container-xxl{
+	background-color: grey;
+	border-radius:2px;
+}
+
+.container-sm{
+	background-color: #006bb3;
+	border-radius:5px;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+
+.container-sm container{
+	background-color: grey;
+}
+
+.container-sm .container ul{
+	background-color: grey;
+}
+
+.container-sm .row align-items-start{
+	border-color: black;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+.container-sm .col{
+	background-color:purple;
+	color:white;
+	border-color: pink;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	display: flex;
+}
+
+.container-sm  .progress{
+	margin-bottom:20px;
+	height:25px;
+	background-color:grey;
+	color: purple;
+}
+
+.container-sm .progress-bar {
+	background-color: purple;
+}
+
+.container-xxl img{
+	 border-radius:500%;
+     display:block;
+     margin:auto;
+}
+
+.container .bi{
+	color: black;
+	margin-left:5px;
+}
+
+.container-sm .btn {
+	background-color: black;
+	border-color:black;
+}
+
+.container a{
+	color:black;
+}
+
+<!--Boton edicion-->
+
+.boton {
+	margin:10px;
+}
+
+.lbl-switch{
+	display:inline-block;
+	width:55px;
+	height:30px;
+	background:#aaa;
+	border-radius:100px;
+	position:relative;
+	cursor:pointer;
+}
+
+.lbl-switch:after{
+	position:absolute;
+	content:'';
+	width:22px;
+	height:22px;
+	background:#fff;
+	border-radius:100px;
+	top:4px;
+	left:5px;
+	transition: 0.3s;
+}
+
+#btn-switch:checked~ .lbl-switch:after{
+	left:28px;
+}
+
+#btn-switch{
+	display:none;
+}
+
+<!--Botones para editar-->
+.edicion redondo{
+	color: red;
+}
+.edicion redondo2{
+	color:black;
+}
+
